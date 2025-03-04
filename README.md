@@ -51,7 +51,7 @@ For your test set and the RAG systems, you will first need to compile a knowledg
 
 + General Info and History of Pittsburgh/CMU
     - Wikipedia pages ([Pittsburgh](https://en.wikipedia.org/wiki/Pittsburgh), [History of Pittsburgh](https://en.wikipedia.org/wiki/History_of_Pittsburgh)).
-    - [City of Pittsburgh webpage](https://pittsburghpa.gov/index.html)
+    - [City of Pittsburgh webpage](https://www.pittsburghpa.gov/Home)
     - [Encyclopedia Brittanica page](https://www.britannica.com/place/Pittsburgh)
     - [Visit Pittsburgh webpage](https://www.visitpittsburgh.com): This website also contains subpages that would be useful for other topics (see below), like events, sports, music, food, etc.
     - City of Pittsburgh [Tax Regulations](https://pittsburghpa.gov/finance/tax-forms): See the links under the "Regulations" column of the table

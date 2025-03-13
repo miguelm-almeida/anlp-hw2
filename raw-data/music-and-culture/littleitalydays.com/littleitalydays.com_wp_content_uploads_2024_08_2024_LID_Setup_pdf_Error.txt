@@ -1,0 +1,1 @@
+Error scraping http://littleitalydays.com/wp-content/uploads/2024/08/2024-LID-Setup.pdf: 404 Client Error: Not Found for url: http://littleitalydays.com/wp-content/uploads/2024/08/2024-LID-Setup.pdf

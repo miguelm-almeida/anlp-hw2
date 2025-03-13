@@ -1,0 +1,1 @@
+Error scraping https://www.pittsburghsymphony.org/: 403 Client Error: HTTP Forbidden for url: https://www.pittsburghsymphony.org/?queueittoken=e_trustsitewide~ts_1741729657~ce_true~rt_safetynet~h_c8a0f2f8daff8d0b68a7e4377ea5622347f5135beb8621f7cae9427bbfa42a31

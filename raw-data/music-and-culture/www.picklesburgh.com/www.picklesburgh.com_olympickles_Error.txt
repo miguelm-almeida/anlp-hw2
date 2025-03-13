@@ -1,0 +1,1 @@
+Error scraping https://www.picklesburgh.com/olympickles/: 404 Client Error: Not Found for url: https://www.picklesburgh.com/olympickles/

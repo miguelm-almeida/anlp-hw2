@@ -1,9 +1,3 @@
-TITLE: Access for All - Carnegie Museums of Pittsburgh
-URL: https://carnegiemuseums.org/join-support/membership/access-for-all/
---------------------------------------------------
-
-# Access for All
-
 >
 
 >
@@ -20,7 +14,7 @@ Community Access Membership is presented by
 
 and supported by Giant Eagle Foundation
 
-Teen Membership is generously supported by The Grable Foundation and the Robert and Mary Weisbrod Foundation
+Teen Membership is generously supported by The Grable Foundation
 
 *Carnegie Museums of Pittsburgh reserves the right to cancel any Teen Membership, Family Access Membership or Organizational Access Membership should an applicant submit incomplete or false information.
 

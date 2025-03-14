@@ -1,9 +1,3 @@
-TITLE: Photo Gallery - Picklesburgh
-URL: https://www.picklesburgh.com/photo-gallery/
---------------------------------------------------
-
-# Photo Gallery
-
 Photos: Courtesy of Pittsburgh Downtown Partnership. Photographers: Renee Rosensteel & Emery Meyer.
 
 PicklesburghTM is produced by

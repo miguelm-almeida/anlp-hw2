@@ -1,1 +1,1 @@
-Error scraping https://trustarts.org/: 403 Client Error: HTTP Forbidden for url: https://trustarts.org/?queueittoken=e_trustsitewide~ts_1741729725~ce_true~rt_safetynet~h_e87436d5f79cf10cd717aee609cd3b69fbe9b199c73239cd856214f7007e593b
+Error scraping https://trustarts.org/: 403 Client Error: HTTP Forbidden for url: https://trustarts.org/?queueittoken=e_trustsitewide~ts_1741903023~ce_true~rt_safetynet~h_4d804789747dc734f4a234e48eaba8839cbb3643d8093deef6aca25a847fb3c9

@@ -1,0 +1,1 @@
+Error scraping https://www.nhl.com/penguins/community/: HTTPSConnectionPool(host='www.nhl.com', port=443): Read timed out. (read timeout=10)

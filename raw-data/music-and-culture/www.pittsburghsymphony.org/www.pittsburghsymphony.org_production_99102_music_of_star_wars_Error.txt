@@ -1,0 +1,1 @@
+Error scraping https://www.pittsburghsymphony.org/production/99102/music-of-star-wars: 403 Client Error: HTTP Forbidden for url: https://www.pittsburghsymphony.org/production/99102/music-of-star-wars

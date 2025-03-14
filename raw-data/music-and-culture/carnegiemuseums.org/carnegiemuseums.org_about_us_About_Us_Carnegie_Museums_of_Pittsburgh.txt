@@ -1,21 +1,3 @@
-TITLE: About Us - Carnegie Museums of Pittsburgh
-URL: https://carnegiemuseums.org/about-us/
---------------------------------------------------
-
-# About Us
-
-### Our History
-
-### Our Museums
-
-### Our Impact
-
-### Our Leaders
-
-### Opportunities
-
-### Contact Us
-
 There’s no cultural organization in the world quite like Carnegie Museums of Pittsburgh. With a legacy of discovery and outreach dating back to 1895, today we are a family of four diverse, dynamic museums: Carnegie Museum of Art, Carnegie Museum of Natural History, Carnegie Science Center, and The Andy Warhol Museum. We’re committed to being inclusive, both on-site and online, and to exploring with our audiences the big ideas and issues of our time.
 
 Our mission: To preserve and expand the resources of art and science as agents of personal growth and social advancement in Pittsburgh and beyond.

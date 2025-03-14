@@ -1,1 +1,0 @@
-Error scraping https://www.nhl.com/penguins/video/post-game-karlsson-03-11-25-6369906960112: HTTPSConnectionPool(host='www.nhl.com', port=443): Read timed out. (read timeout=10)

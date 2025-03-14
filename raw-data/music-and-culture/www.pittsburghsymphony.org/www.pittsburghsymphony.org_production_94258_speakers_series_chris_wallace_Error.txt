@@ -1,0 +1,1 @@
+Error scraping https://www.pittsburghsymphony.org/production/94258/speakers-series-chris-wallace: 403 Client Error: HTTP Forbidden for url: https://www.pittsburghsymphony.org/production/94258/speakers-series-chris-wallace

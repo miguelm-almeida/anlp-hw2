@@ -1,9 +1,3 @@
-TITLE: Contact Us - Carnegie Museums of Pittsburgh
-URL: https://carnegiemuseums.org/contact-us/
---------------------------------------------------
-
-# Contact Us
-
 Tell us about your event and let us get back to you with ideas. Complete an About My Event form.
 
 To talk with us about an event:

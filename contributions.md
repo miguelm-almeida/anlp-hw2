@@ -1,19 +1,19 @@
 # Team Contributions
 
 ## Data Annotation
-- Member 1: Instances 1-X
-- Member 2: Instances X-Y 
-- Member 3: Instances Y-Z
+- Prith Sharma: Instances 1-500
+- Sudeshna Merugu: Instances 501-1000
+- Miguel Almeida: Instances 1001-1500
 
 ## Implementation
-- Member 1: 
-  - Implemented scripts for data scraping from Pittsburgh websites
-  - Setup document embedding using Sentence Transformers
+- Prith Sharma: 
+  - 
   
-- Member 2:
-  - Processed and cleaned raw data
-  - Designed and implemented the document retriever component
+- Sudeshna Merugu:
+  - 
   
-- Member 3:
-  - Implemented the document reader/answering component
-  - Integrated system components and performance evaluation 
+- Miguel Almeida:
+  - Co-implemented the Beautiful Soup scraping scripts
+  - Implemented data cleaning scripts
+  - Implemented the close book performance evaluation
+  - Wrote final report

@@ -1,0 +1,7 @@
+sentence-transformers
+torch
+numpy
+requests
+python-dotenv
+triton==2.0.0
+transformers

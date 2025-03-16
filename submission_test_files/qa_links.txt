@@ -1,0 +1,2 @@
+questions.txt: https://github.com/miguelm-almeida/anlp-hw2/blob/main/annotated-data/questions.txt
+reference_answers.txt: https://github.com/miguelm-almeida/anlp-hw2/blob/main/annotated-data/reference_answers.txt

@@ -19,26 +19,52 @@ We evaluate three different language models in both closed book (without RAG) an
 ## Repository Structure
 
 ```bash
-├── RAG/ # Main RAG implementation
-│ ├── main.py # Main execution script
-│ ├── lightweight_qa.py # QA model implementations
-│ ├── rag_retriever.py # RAG retrieval component
-│ ├── rag_question_answerer.py # RAG question answering component
-│ ├── batch_inference.py # Batch processing script
-│ ├── corpus_processor.py # Document corpus processing
-│ └── data/ # Processed data for RAG
+├── RAG/                           # Main RAG implementation
+│   ├── main.py                    # Main execution script
+│   ├── lightweight_qa.py          # QA model implementations
+│   ├── rag_retriever.py          # RAG retrieval component
+│   ├── rag_question_answerer.py  # RAG question answering component
+│   ├── batch_inference.py        # Batch processing script
+│   ├── corpus_processor.py       # Document corpus processing
+│   ├── closed_book_evaluation.py # Closed book evaluation script
+│   ├── metrics_evaluation.py     # Metrics calculation script
+│   ├── empty.py                  # Empty file placeholder
+│   ├── RAG.ipynb                # RAG implementation notebook
+│   ├── requirements.txt         # RAG-specific dependencies
+│   ├── corpus.txt              # Corpus for RAG retrieval
+│   └── data/                   # Processed data for RAG
 │
-├── test/ # Test data
-│ ├── test_questions.txt # Test questions
-│ ├── test_answers.txt # Ground truth answers
+├── test/                       # Test data
+│   ├── test_questions.txt     # Test questions
+│   └── test_answers.txt       # Ground truth answers
 │
-├── Metrics and IAA/ # Metrics and evaluation
-│ ├── Metrics_IAA.ipynb # Metrics calculation notebook
-│ └── merged_qa_.csv # Results from model evaluations
+├── Metrics and IAA/           # Metrics and evaluation
+│   ├── Metrics_IAA.ipynb     # Metrics calculation notebook
+│   ├── phi2_1500.csv         # Phi-2 model results
+│   ├── distilbert_1500.csv   # DistilBERT model results
+│   ├── flant5_1500.csv       # Flan-T5 model results
+│   ├── merged_qa_distilbert.csv  # Merged results for DistilBERT
+│   ├── merged_qa_flant5.csv     # Merged results for Flan-T5
+│   ├── merged_qa_phi2.csv       # Merged results for Phi-2
+│   ├── empty.py                 # Empty file placeholder
+│   └── annotated_qsns_final.csv # Final annotated questions
 │
-├── src/ # Source code
-├── requirements.txt # Python dependencies
-└── WRITEUP.md # Project write-up and analysis
+├── submission_test_files/     # Test submission files
+├── train/                    # Training data
+├── src/                     # Source code
+│   ├── data_processing/    # Data processing scripts
+│   ├── data_collection/   # Data collection scripts
+│   └── rag_system/       # RAG system implementation
+│
+├── raw-data/              # Raw data files
+├── clean-data/           # Cleaned data files
+├── annotated-data/      # Annotated data files
+├── scripts/            # Utility scripts
+├── requirements.txt   # Python dependencies
+├── WRITEUP.md        # Project write-up and analysis
+├── README.md         # Project documentation
+├── contributions.md  # Team member contributions
+└── github_url.txt   # Repository URL
 ```
 
 

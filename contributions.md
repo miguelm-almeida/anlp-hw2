@@ -15,5 +15,5 @@
 - Miguel Almeida:
   - Co-implemented the Beautiful Soup scraping scripts
   - Implemented data cleaning scripts
-  - Implemented the close book performance evaluation
+  - Co-implemented the close book performance evaluation
   - Wrote final report

@@ -1,19 +1,22 @@
 # Team Contributions
 
 ## Data Annotation
-- Prith Sharma: Instances 1-500
-- Sudeshna Merugu: Instances 501-1000
-- Miguel Almeida: Instances 1001-1500
+- Prith Sharma: Annotator 1 for IAA and also annotated Events and Sports
+- Sudeshna Merugu: Annotator 2 for IAA also annotated General and History
+- Miguel Almeida: Implemented IAA agreement calculation and also annotated Music and Culture
 
 ## Implementation
-- Prith Sharma: 
-  - 
-  
 - Sudeshna Merugu:
-  - 
+  - Created the vector database by chunking the data and generating embeddings (Corpus processing) and worked on RAG QA
+  - Implemented batch processing script for CSV input inference
+  - Developed `main.py` for batch and single input inference
+
+- Prith Sharma:
+  - Implemented RAG Retriever
+  - Conducted closed book evaluation (RAG + LLMs vs LLMs only)
+  - Computed metrics: Exact match, F1, semantic similarity, answer recall
   
 - Miguel Almeida:
-  - Co-implemented the Beautiful Soup scraping scripts
-  - Implemented data cleaning scripts
-  - Co-implemented the close book performance evaluation
-  - Wrote final report
+  - Developed Lightweight QA for concise answer generation using retrieved context
+  - Implemented IAA calculation
+  - Integrated report writing and final deliverables (code, data, README files)

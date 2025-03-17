@@ -26,13 +26,15 @@ We evaluate three different language models in both closed book (without RAG) an
 │   ├── rag_question_answerer.py  # RAG question answering component
 │   ├── batch_inference.py        # Batch processing script
 │   ├── corpus_processor.py       # Document corpus processing
-│   ├── closed_book_evaluation.py # Closed book evaluation script
+│   ├── closed_book_evaluation.ipynb # Closed book evaluation script
 │   ├── metrics_evaluation.py     # Metrics calculation script
 │   ├── empty.py                  # Empty file placeholder
 │   ├── RAG.ipynb                # RAG implementation notebook
 │   ├── requirements.txt         # RAG-specific dependencies
 │   ├── corpus.txt              # Corpus for RAG retrieval
 │   └── data/                   # Processed data for RAG
+│         └── chunks.json        
+│         └── embeddings.json
 │
 ├── test/                       # Test data
 │   ├── test_questions.txt     # Test questions
@@ -49,8 +51,18 @@ We evaluate three different language models in both closed book (without RAG) an
 │   ├── empty.py                 # Empty file placeholder
 │   └── annotated_qsns_final.csv # Final annotated questions
 │
-├── submission_test_files/     # Test submission files
+├── submission_test_files/
+│              └── system_outputs/
+│                        └── system_output_1.json # Test submission files
+│                        └── system_output_2.json # Test submission files
+│                        └── system_output_3.json # Test submission files
+│              ├── new_test_distilbert.csv
+│              ├── new_test_flant5.csv
+│              ├── new_test_phi2.csv
+│              └── qa_links.txt
 ├── train/                    # Training data
+│   ├── train_questions.txt     # Test questions
+│   └── train_answers.txt       # Ground truth answers
 ├── src/                     # Source code
 │   ├── data_processing/    # Data processing scripts
 │   ├── data_collection/   # Data collection scripts
@@ -72,60 +84,23 @@ We evaluate three different language models in both closed book (without RAG) an
 
 1. Clone this repository:
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/miguelm-almeida/anlp-hw2.git
+cd anlp-hw2
 ```
 
-2. Install the required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Additional requirements for RAG:
-```bash
-pip install -r RAG/requirements.txt
-```
-
-4. Download NLTK resources (for metrics calculation):
+2. Download NLTK resources (for metrics calculation):
 ```python
 import nltk
 nltk.download('punkt')
 nltk.download('stopwords')
 ```
 
-## Usage
+3. Follow the steps mentioned in the RAG.ipynb file for the RAG implementation. 
 
-### Running the RAG System
+4. Follow the steps mentioned in the Metrics_IAA.ipynb file to get the metrics and IAA values.
 
-To run the RAG system with a specific model:
+5. Run the RAG/closed_book_evaluation.ipynb to get the metrics for closed book evaluation. 
 
-```bash
-cd RAG
-python main.py --model <model-name> --question "Your question here"
-```
-
-where `<model-name>` can be "flan-t5", "distilbert", or "phi-2".
-
-To process multiple questions from a CSV file:
-
-```bash
-python main.py --model <model-name> --csv_file path/to/questions.csv
-```
-
-### Running Closed Book Evaluation
-
-To evaluate models without RAG (closed book):
-
-```bash
-cd RAG
-python closed_book_evaluation.py --model all --questions_file ../test/test_questions.txt --answers_file ../test/test_answers.txt --output_dir closed_book_results --batch_size 4
-```
-
-To calculate metrics:
-
-```bash
-python metrics_evaluation.py --input_dir closed_book_results --model all
-```
 
 ## Evaluation Metrics
 
